@@ -16,7 +16,7 @@ See below description of project structure:
 
 # Data
 
-Given that I do not have access to real-life clinical data, I generated the following synthetic datasets to replicate an experimental setting:
+Given that I do not have access to real-life clinical data, I generated the following synthetic datasets to simulate an experimental setting:
 
 * Raw hypertension patient dataset before medication ([Link](https://github.com/0-5stepdown/Clinical_Trial_Simulation/blob/main/data/baseline_sbp_data.csv))
   * Features include **patient_id**, **age**, **sex**, **ethnicity**, and **baseline_sbp**.
@@ -29,9 +29,9 @@ Given that I do not have access to real-life clinical data, I generated the foll
   * Variant assignment was done within the project workbook, then saved as a CSV file.
 
 * Hypertension patient dataset after medication ([Link](https://github.com/0-5stepdown/Clinical_Trial_Simulation/blob/main/data/post_sbp_data.csv))
-  * This dataset incorporates occurrences of side effects and random variability in patient systolic blood pressure post-medication
+  * This dataset incorporated occurrences of side effects and random variability in patient systolic blood pressure post-medication
 
-The code used to generate the hypertension patient datasets before and after medication can be found at the link below:
+The code used to generate the hypertension patient datasets can be found at the link below:
 
 [Code for generating synthetic datasets](https://nbviewer.org/github/0-5stepdown/Clinical_Trial_Simulation/blob/main/data/AB%20Testing%20-%20Blood%20Pressure%20Medication%20Data.ipynb)
 
